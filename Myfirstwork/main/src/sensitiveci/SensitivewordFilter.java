@@ -11,6 +11,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 @SuppressWarnings("all")
+//一下为主程序，检测文本是否含有敏感词
 public class SensitivewordFilter {
 
     public static Map sensitiveWordMap = null; //敏感词词库，DFA算法储存
